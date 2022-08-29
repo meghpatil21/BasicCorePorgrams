@@ -23,6 +23,9 @@
                 case 5:
                     PrimeFactors.PrimeFact();
                     break;
+                case 6:
+                    QuotientnRemainder.QuotientRemain();
+                    break;
                 default:
                     Console.WriteLine("Entered Wrong choice");
                     break;
