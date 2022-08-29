@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Choose Program\n 1.Flip coin and print percentage\n 2.Leap Year\n 3.Power of 2");
+            Console.WriteLine("Choose Program\n 1.Flip coin and print percentage\n 2.Leap Year\n 3.Power of 2\n 4.Harmonic No.");
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
             {
@@ -16,6 +16,9 @@
                     break;
                 case 3:
                     PowerOf2.PowerOfTwo(); 
+                    break;
+                case 4:
+                    HarmonicNumber.HarmonicNo();
                     break;
                 default:
                     Console.WriteLine("Entered Wrong choice");
