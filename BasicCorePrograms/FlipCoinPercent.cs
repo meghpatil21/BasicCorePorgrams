@@ -15,7 +15,7 @@ namespace BasicCorePrograms
             int i;
             int headCount = 0;
             int tailCount = 0;
-            int headPercent;
+            double headPercent;
 
             if(n<=0)
             {
